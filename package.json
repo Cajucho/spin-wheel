@@ -13,6 +13,7 @@
     "fortune"
   ],
   "type": "module",
+  "module": "/dist/spin-wheel-esm.js",
   "scripts": {
     "start": "node scripts/build.js -entryPoint=src/wheel.js -servePath=examples/themes/",
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --testPathPattern=src",
